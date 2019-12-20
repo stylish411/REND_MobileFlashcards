@@ -51,7 +51,7 @@ class AddCard extends Component {
                     <TextInput style={styles.text} placeholder="Insert answer" value={answer} onChangeText={this.setAnswer} />
                 </View>
                 <TouchableOpacity style={styles.button} onPress={this.submit}>
-                    <Text style={{ color: white, fontSize: 20 }}>Add</Text>
+                    <Text style={{ color: white, fontSize: 20 }}>Add Card</Text>
                 </TouchableOpacity>
             </View>
         )
